@@ -87,45 +87,45 @@ LearnMind
 
 ##### （四） 线程、多线程和线程池
 
-- [ ] 开启线程的三种方式？
-- [ ] ~~线程和进程的区别？~~
-- [ ] 为什么要有线程，而不是仅仅用进程？
-- [ ] run()和start()方法区别
-- [ ] 如何控制某个方法允许并发访问线程的个数？
-- [ ] 在Java中wait和seelp方法的不同；
-- [ ] 谈谈wait/notify关键字的理解
-- [ ] 什么导致线程阻塞？
-- [ ] 线程如何关闭？
-- [ ] 讲一下java中的同步的方法
-- [ ] 数据一致性如何保证？
-- [ ] 如何保证线程安全？
-- [ ] 如何实现线程同步？
-- [ ] 两个进程同时要求写或者读，能不能实现？如何防止进程的同步？
-- [ ] 线程间操作List
-- [ ] Java中对象的生命周期
-- [ ] Synchronized用法
-- [ ] synchronize的原理
-- [ ] 谈谈对Synchronized关键字，类锁，方法锁，重入锁的理解
-- [ ] static synchronized 方法的多线程访问和作用
-- [ ] 同一个类里面两个synchronized方法，两个线程同时访问的问题
-- [ ] volatile的原理
-- [ ] 谈谈volatile关键字的用法
-- [ ] 谈谈volatile关键字的作用
-- [ ] 谈谈NIO的理解
-- [ ] synchronized 和volatile 关键字的区别
-- [ ] synchronized与Lock的区别
-- [ ] ReentrantLock 、synchronized和volatile比较
-- [ ] ReentrantLock的内部实现
-- [ ] lock原理
-- [ ] 死锁的四个必要条件？
-- [ ] 怎么避免死锁？
-- [ ] 对象锁和类锁是否会互相影响？
-- [ ] 什么是线程池，如何使用?
-- [ ] Java的并发、多线程、线程模型
-- [ ] 谈谈对多线程的理解
-- [ ] 多线程有什么要注意的问题？
-- [ ] 谈谈你对并发编程的理解并举例说明
-- [ ] 谈谈你对多线程同步机制的理解？
+- [x] 开启线程的三种方式？
+- [x] ~~线程和进程的区别？~~
+- [x] 为什么要有线程，而不是仅仅用进程？
+- [x] run()和start()方法区别
+- [x] 如何控制某个方法允许并发访问线程的个数？
+- [x] 在Java中wait和seelp方法的不同；
+- [x] 谈谈wait/notify关键字的理解
+- [x] 什么导致线程阻塞？
+- [x] 线程如何关闭？
+- [x] 讲一下java中的同步的方法
+- [x] 数据一致性如何保证？
+- [x] 如何保证线程安全？
+- [x] 如何实现线程同步？
+- [x] 两个进程同时要求写或者读，能不能实现？如何防止进程的同步？
+- [x] 线程间操作List
+- [x] Java中对象的生命周期
+- [x] Synchronized用法
+- [x] synchronize的原理
+- [x] 谈谈对Synchronized关键字，类锁，方法锁，重入锁的理解
+- [x] static synchronized 方法的多线程访问和作用
+- [x] 同一个类里面两个synchronized方法，两个线程同时访问的问题
+- [x] volatile的原理
+- [x] 谈谈volatile关键字的用法
+- [x] 谈谈volatile关键字的作用
+- [x] 谈谈NIO的理解
+- [x] synchronized 和volatile 关键字的区别
+- [x] synchronized与Lock的区别
+- [x] ReentrantLock 、synchronized和volatile比较
+- [x] ReentrantLock的内部实现
+- [x] lock原理
+- [x] 死锁的四个必要条件？
+- [x] 怎么避免死锁？
+- [x] 对象锁和类锁是否会互相影响？
+- [x] 什么是线程池，如何使用?
+- [x] Java的并发、多线程、线程模型
+- [x] 谈谈对多线程的理解
+- [x] 多线程有什么要注意的问题？
+- [x] 谈谈你对并发编程的理解并举例说明
+- [x] 谈谈你对多线程同步机制的理解？
 - [ ] 如何保证多线程读写文件的安全？
 - [ ] 多线程断点续传原理
 - [ ] 断点续传的实现
@@ -168,146 +168,146 @@ Android面试题包括Android基础，还有一些源码级别的、原理这些
 
 - [ ] 四大组件是什么
 - [ ] 四大组件的生命周期和简单用法
-- [ ] Activity之间的通信方式
-- [ ] Activity各种情况下的生命周期
-- [ ] 横竖屏切换的时候，Activity 各种情况下的生命周期
-- [ ] Activity与Fragment之间生命周期比较
-- [ ] Activity上有Dialog的时候按Home键时的生命周期
-- [ ] 两个Activity 之间跳转时必然会执行的是哪几个方法？
-- [ ] 前台切换到后台，然后再回到前台，Activity生命周期回调方法。弹出Dialog，生命值周期回调方法。
-- [ ] Activity的四种启动模式对比
-- [ ] Activity状态保存于恢复
-- [ ] fragment各种情况下的生命周期
-- [ ] Fragment状态保存startActivityForResult是哪个类的方法，在什么情况下使用？
-- [ ] 如何实现Fragment的滑动？
-- [ ] fragment之间传递数据的方式？
-- [ ] Activity 怎么和Service 绑定？
-- [ ] 怎么在Activity 中启动自己对应的Service？
-- [ ] service和activity怎么进行数据交互？
-- [ ] Service的开启方式
-- [ ] 请描述一下Service 的生命周期
-- [ ] 谈谈你对ContentProvider的理解
-- [ ] 说说ContentProvider、ContentResolver、ContentObserver 之间的关系
-- [ ] 请描述一下广播BroadcastReceiver的理解
-- [ ] 广播的分类
-- [ ] 广播使用的方式和场景
-- [ ] 在manifest 和代码中如何注册和使用BroadcastReceiver?
-- [ ] 本地广播和全局广播有什么差别？
-- [ ] BroadcastReceiver，LocalBroadcastReceiver 区别
-- [ ] AlertDialog,popupWindow,Activity区别
-- [ ] Application 和 Activity 的 Context 对象的区别
-- [ ] Android属性动画特性
-- [ ] 如何导入外部数据库?
-- [ ] LinearLayout、RelativeLayout、FrameLayout的特性及对比，并介绍使用场景。
-- [ ] 谈谈对接口与回调的理解
-- [ ] 回调的原理
-- [ ] 写一个回调demo
-- [ ] 介绍下SurfView
-- [ ] RecycleView的使用
-- [ ] 序列化的作用，以及Android两种序列化的区别
-- [ ] 差值器
-- [ ] 估值器
-- [ ] Android中数据存储方式
+- [x] Activity之间的通信方式
+- [x] Activity各种情况下的生命周期
+- [x] 横竖屏切换的时候，Activity 各种情况下的生命周期
+- [x] Activity与Fragment之间生命周期比较
+- [x] Activity上有Dialog的时候按Home键时的生命周期
+- [x] 两个Activity 之间跳转时必然会执行的是哪几个方法？
+- [x] 前台切换到后台，然后再回到前台，Activity生命周期回调方法。弹出Dialog，生命值周期回调方法。
+- [x] Activity的四种启动模式对比
+- [x] Activity状态保存于恢复
+- [x] fragment各种情况下的生命周期
+- [x] Fragment状态保存startActivityForResult是哪个类的方法，在什么情况下使用？
+- [x] 如何实现Fragment的滑动？
+- [x] fragment之间传递数据的方式？
+- [x] Activity 怎么和Service 绑定？
+- [x] 怎么在Activity 中启动自己对应的Service？
+- [x] service和activity怎么进行数据交互？
+- [x] Service的开启方式
+- [x] 请描述一下Service 的生命周期
+- [x] 谈谈你对ContentProvider的理解
+- [x] 说说ContentProvider、ContentResolver、ContentObserver 之间的关系
+- [x] 请描述一下广播BroadcastReceiver的理解
+- [x] 广播的分类
+- [x] 广播使用的方式和场景
+- [x] 在manifest 和代码中如何注册和使用BroadcastReceiver?
+- [x] 本地广播和全局广播有什么差别？
+- [x] BroadcastReceiver，LocalBroadcastReceiver 区别
+- [x] AlertDialog,popupWindow,Activity区别
+- [x] Application 和 Activity 的 Context 对象的区别
+- [x] Android属性动画特性
+- [x] 如何导入外部数据库?
+- [x] LinearLayout、RelativeLayout、FrameLayout的特性及对比，并介绍使用场景。
+- [x] 谈谈对接口与回调的理解
+- [x] 回调的原理
+- [x] 写一个回调demo
+- [x] 介绍下SurfView
+- [x] RecycleView的使用
+- [x] 序列化的作用，以及Android两种序列化的区别
+- [x] 差值器
+- [x] 估值器
+- [x] Android中数据存储方式
 
 ##### （二）Android源码相关分析
 
-- [ ] Android动画框架实现原理
-- [ ] Android各个版本API的区别
-- [ ] Requestlayout，onlayout，onDraw，DrawChild区别与联系
-- [ ] invalidate和postInvalidate的区别及使用
-- [ ] Activity-Window-View三者的差别
+- [x] Android动画框架实现原理
+- [x] Android各个版本API的区别
+- [x] Requestlayout，onlayout，onDraw，DrawChild区别与联系
+- [x] invalidate和postInvalidate的区别及使用
+- [x] Activity-Window-View三者的差别
 - [ ] 谈谈对Volley的理解
-- [ ] 如何优化自定义View
-- [ ] 低版本SDK如何实现高版本api？
-- [ ] 描述一次网络请求的流程
-- [ ] HttpUrlConnection 和 okhttp关系
-- [ ] Bitmap对象的理解
-- [ ] looper架构
-- [ ] ActivityThread，AMS，WMS的工作原理
-- [ ] 自定义View如何考虑机型适配
-- [ ] 自定义View的事件
-- [ ] AstncTask+HttpClient 与 AsyncHttpClient有什么区别？
-- [ ] LaunchMode应用场景
-- [ ] AsyncTask 如何使用?
-- [ ] SpareArray原理
-- [ ] 请介绍下ContentProvider 是如何实现数据共享的？
-- [ ] AndroidService与Activity之间通信的几种方式
-- [ ] IntentService原理及作用是什么？
-- [ ] 说说Activity、Intent、Service 是什么关系
-- [ ] ApplicationContext和ActivityContext的区别
-- [ ] SP是进程同步的吗?有什么方法做到同步？
-- [ ] 谈谈多线程在Android中的使用
-- [ ] 进程和 Application 的生命周期
-- [ ] 封装View的时候怎么知道view的大小
-- [ ] RecycleView原理
-- [ ] AndroidManifest的作用与理解
+- [x] 如何优化自定义View
+- [x] 低版本SDK如何实现高版本api？
+- [x] 描述一次网络请求的流程
+- [x] HttpUrlConnection 和 okhttp关系
+- [x] Bitmap对象的理解
+- [x] looper架构
+- [x] ActivityThread，AMS，WMS的工作原理
+- [x] 自定义View如何考虑机型适配
+- [x] 自定义View的事件
+- [x] AstncTask+HttpClient 与 AsyncHttpClient有什么区别？
+- [x] LaunchMode应用场景
+- [x] AsyncTask 如何使用?
+- [x] SpareArray原理
+- [x] 请介绍下ContentProvider 是如何实现数据共享的？
+- [x] AndroidService与Activity之间通信的几种方式
+- [x] IntentService原理及作用是什么？
+- [x] 说说Activity、Intent、Service 是什么关系
+- [x] ApplicationContext和ActivityContext的区别
+- [x] SP是进程同步的吗?有什么方法做到同步？
+- [x] 谈谈多线程在Android中的使用
+- [x] 进程和 Application 的生命周期
+- [x] 封装View的时候怎么知道view的大小
+- [x] RecycleView原理
+- [x] AndroidManifest的作用与理解
 
 ##### （三）常见的一些原理性问题
 
-- [ ] Handler机制和底层实现
-- [ ] Handler、Thread和HandlerThread的差别
-- [ ] handler发消息给子线程，looper怎么启动？
-- [ ] 关于Handler，在任何地方new Handler 都是什么线程下?
-- [ ] ThreadLocal原理，实现及如何保证Local属性？
-- [ ] 请解释下在单线程模型中Message、Handler、Message Queue、Looper之间的关系
-- [ ] 请描述一下View事件传递分发机制
-- [ ] Touch事件传递流程
-- [ ] 事件分发中的onTouch 和onTouchEvent 有什么区别，又该如何使用？
-- [ ] View和ViewGroup分别有哪些事件分发相关的回调方法
-- [ ] View刷新机制
-- [ ] View绘制流程
-- [ ] 自定义控件原理
-- [ ] 自定义View如何提供获取View属性的接口？
-- [ ] Android代码中实现WAP方式联网
-- [ ] AsyncTask机制
-- [ ] AsyncTask原理及不足
-- [ ] 如何取消AsyncTask？
-- [ ] 为什么不能在子线程更新UI？
-- [ ] ANR产生的原因是什么？
-- [ ] ANR定位和修正
-- [ ] oom是什么？
-- [ ] 什么情况导致oom？
-- [ ] 有什么解决方法可以避免OOM？
-- [ ] Oom 是否可以try catch？为什么？
-- [ ] 内存泄漏是什么？
-- [ ] 什么情况导致内存泄漏？
-- [ ] 如何防止线程的内存泄漏？
-- [ ] 内存泄露场的解决方法
-- [ ] 内存泄漏和内存溢出区别？
-- [ ] LruCache默认缓存大小
-- [ ] ContentProvider的权限管理(解答：读写分离，权限控制-精确到表级，URL控制)
-- [ ] 如何通过广播拦截和abort一条短信？
-- [ ] 广播是否可以请求网络？
-- [ ] 广播引起anr的时间限制是多少？
-- [ ] 计算一个view的嵌套层级
-- [ ] Activity栈
-- [ ] Android线程有没有上限？
-- [ ] 线程池有没有上限？
-- [ ] ListView重用的是什么？
-- [ ] Android为什么引入Parcelable？
-- [ ] 有没有尝试简化Parcelable的使用？
+- [x] Handler机制和底层实现
+- [x] Handler、Thread和HandlerThread的差别
+- [x] handler发消息给子线程，looper怎么启动？
+- [x] 关于Handler，在任何地方new Handler 都是什么线程下?
+- [x] ThreadLocal原理，实现及如何保证Local属性？
+- [x] 请解释下在单线程模型中Message、Handler、Message Queue、Looper之间的关系
+- [x] 请描述一下View事件传递分发机制
+- [x] Touch事件传递流程
+- [x] 事件分发中的onTouch 和onTouchEvent 有什么区别，又该如何使用？
+- [x] View和ViewGroup分别有哪些事件分发相关的回调方法
+- [x] View刷新机制
+- [x] View绘制流程
+- [x] 自定义控件原理
+- [x] 自定义View如何提供获取View属性的接口？
+- [x] Android代码中实现WAP方式联网
+- [x] AsyncTask机制
+- [x] AsyncTask原理及不足
+- [x] 如何取消AsyncTask？
+- [x] 为什么不能在子线程更新UI？
+- [x] ANR产生的原因是什么？
+- [x] ANR定位和修正
+- [x] oom是什么？
+- [x] 什么情况导致oom？
+- [x] 有什么解决方法可以避免OOM？
+- [x] Oom 是否可以try catch？为什么？
+- [x] 内存泄漏是什么？
+- [x] 什么情况导致内存泄漏？
+- [x] 如何防止线程的内存泄漏？
+- [x] 内存泄露场的解决方法
+- [x] 内存泄漏和内存溢出区别？
+- [x] LruCache默认缓存大小
+- [x] ContentProvider的权限管理(解答：读写分离，权限控制-精确到表级，URL控制)
+- [x] 如何通过广播拦截和abort一条短信？
+- [x] 广播是否可以请求网络？
+- [x] 广播引起anr的时间限制是多少？
+- [x] 计算一个view的嵌套层级
+- [x] Activity栈
+- [x] Android线程有没有上限？
+- [x] 线程池有没有上限？
+- [x] ListView重用的是什么？
+- [x] Android为什么引入Parcelable？
+- [x] 有没有尝试简化Parcelable的使用？
 
 ##### （四）开发中常见的一些问题
 
-- [ ] ListView 中图片错位的问题是如何产生的?
-- [ ] 混合开发有了解吗？
-- [ ] 知道哪些混合开发的方式？说出它们的优缺点和各自使用场景？（解答：比如:RN，weex，H5，小程序，WPA等。做Android的了解一些前端js等还是很有好处的)；
-- [ ] 屏幕适配的处理技巧都有哪些?
-- [ ] 服务器只提供数据接收接口，在多线程或多进程条件下，如何保证数据的有序到达？
-- [ ] 动态布局的理解
-- [ ] 怎么去除重复代码？
-- [ ] 画出 Android 的大体架构图
-- [ ] Recycleview和ListView的区别
-- [ ] ListView图片加载错乱的原理和解决方案
-- [ ] 动态权限适配方案，权限组的概念
-- [ ] Android系统为什么会设计ContentProvider？
-- [ ] 下拉状态栏是不是影响activity的生命周期
-- [ ] 如果在onStop的时候做了网络请求，onResume的时候怎么恢复？
-- [ ] Bitmap 使用时候注意什么？
-- [ ] Bitmap的recycler()
-- [ ] Android中开启摄像头的主要步骤
-- [ ] ViewPager使用细节，如何设置成每次只初始化当前的Fragment，其他的不初始化？
-- [ ] 点击事件被拦截，但是想传到下面的View，如何操作？
+- [x] ListView 中图片错位的问题是如何产生的?
+- [x] 混合开发有了解吗？
+- [x] 知道哪些混合开发的方式？说出它们的优缺点和各自使用场景？（解答：比如:RN，weex，H5，小程序，WPA等。做Android的了解一些前端js等还是很有好处的)；
+- [x] 屏幕适配的处理技巧都有哪些?
+- [x] 服务器只提供数据接收接口，在多线程或多进程条件下，如何保证数据的有序到达？
+- [x] 动态布局的理解
+- [x] 怎么去除重复代码？
+- [x] 画出 Android 的大体架构图
+- [x] Recycleview和ListView的区别
+- [x] ListView图片加载错乱的原理和解决方案
+- [x] 动态权限适配方案，权限组的概念
+- [x] Android系统为什么会设计ContentProvider？
+- [x] 下拉状态栏是不是影响activity的生命周期
+- [x] 如果在onStop的时候做了网络请求，onResume的时候怎么恢复？
+- [x] Bitmap 使用时候注意什么？
+- [x] Bitmap的recycler()
+- [x] Android中开启摄像头的主要步骤
+- [x] ViewPager使用细节，如何设置成每次只初始化当前的Fragment，其他的不初始化？
+- [x] 点击事件被拦截，但是想传到下面的View，如何操作？
 - [ ] 微信主页面的实现方式
 - [ ] 微信上消息小红点的原理
 - [ ] CAS介绍（这是阿里巴巴的面试题，我不是很了解，可以参考博客: [CAS简介](http://blog.csdn.net/jly4758/article/details/46673835)）
